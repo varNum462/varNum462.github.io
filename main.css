@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*,
+*::before,
+*::after{    
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing:border-box;
+    font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    font-size:62.5%;/*equals 10px*/
+}
+
+header{
+    width:100%;    
+    padding: 8rem 0;
+    position:relative;
+    z-index: 1;
+    top:0;
+    background-image: url("../assets/section-background-3.jpg");  
+    background-repeat: no-repeat;
+    background-position:0 -7rem; 
+    background-size:cover ; 
+    text-align: center; 
+    opacity: .9;
+    margin-bottom:0;
+}
+nav{
+    font-family: Kanit;
+    font-weight: 200;
+    font-size: 1.75rem;
+    position:fixed;
+    top:0;
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    height:4rem;
+    background-color: #000;
+    opacity: .8;
+    padding-top:1rem;
+    border-bottom:2px solid #c97d60;
+}
+nav a{
+    text-decoration: none;
+    color:bisque;
+    margin:10px 20px;
+    padding-top:1rem;
+}
+nav a:hover{
+    color:#c97d60;
+    font-weight: 400;;
+}
+
+h1{
+    font-family: Kanit;
+    font-weight: 200;
+    font-size: 10rem;   
+}
+h2{
+    font-family: Kanit;
+    font-weight: 200;
+    font-size: 7rem;
+    color: cornflowerblue;
+    margin: 3rem 1rem 2rem;
+}
+h3{
+    font-family: Kanit;
+    font-weight: 200;
+    font-size: 5rem;
+    color: #c97d60;
+    width:100%;
+}
+.subheading{
+    margin:0 auto;
+    text-align: left;
+    padding:0;
+    }
+section{ 
+    width: 100%;
+    min-height:10rem;
+    text-align: center;
+}
+section>div{    
+    padding:3rem;    
+    width:60vw;
+    margin:auto;
+}
+hr{
+    margin:4rem auto 4rem;    
+    width: 80%;
+    border: 0;
+    height: .5rem;
+    background-image: linear-gradient(to right, rgba(209, 84, 46, 0), rgba(209, 84, 46, 0.75), rgba(209, 84, 46, 0));
+}
+.b_border{
+    margin:0 0 4rem 0;
+    width:100%;
+    height:1rem;
+}
+
+p{
+    font-size:2rem; 
+    color: #888;
+    line-height: 1.8;
+    text-align:left;
+    margin-left:2rem;
+    margin-top: 0;
+
+}
+.flex-container{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row 
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+#intro{
+    background-color: transparent;
+    margin:3rem auto;
+    width:45%;
+    text-align: center;
+    z-index: 2;
+}
+#intro h1, #intro h2{
+    margin:.5rem;
+    line-height: 1;
+    color:#f17746;
+    text-shadow: -4px 4px 8px #000;
+}
+#intro .skills{
+    width:60%;
+    margin:auto;
+    text-shadow: -2px 2px 4px #000;
+    }
+
+.skills ul li{
+    font-size: 2.5rem; 
+    color: #E4FDE1;
+    line-height: 2;
+    text-align:left;
+    margin-left:1.5rem;
+}
+
+#intro .down svg{
+    width:5rem;
+    height:5rem;
+    color: #f17746;
+    margin:2rem auto;     
+}3
+
+.overlay{
+    background-image: url("../assets/section-background-3.jpg");  
+    background-position: 0 -10vh;    
+    text-align: center;    
+    margin:0;
+    height:65vh; 
+    background-size:cover ; 
+    opacity: .9;
+    position:relative;
+    z-index: 1;
+    top:0px;    
+}
+#about .mypic img{
+    -webkit-order: -1;
+    order: -1;
+    width:20rem;
+    box-shadow: -6px 6px 10px #888;
+    border-radius: 15px;
+}
+.proj_cards{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; padding:0;
+}
+.card{
+    flex: 0 1 calc(25% - 2rem);
+    border:1px solid #777;
+    border-radius: 10px;
+    margin:0 1rem;
+    b!ackground-image:linear-gradient(to right,rgba(240, 137, 19, 0.479) 50%,#007,rgba(240, 137, 19, 0.479))
+}
+.card3X{
+    flex: 0 1 calc(33% - 2rem);
+    border:1px solid #777;
+    border-radius: 10px;
+    margin:0 1rem;
+    b!ackground-image:linear-gradient(to right,rgba(240, 137, 19, 0.479) 50%,#007,rgba(240, 137, 19, 0.479))
+}
+.card_title{
+    font-size:2.5rem;
+    font-family: Kanit;
+    font-weight:400;
+    text-align:center;
+    color:cornflowerblue;
+    padding:1rem;
+}
+.card_img img{
+    width:90%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.card_text{
+    font-size:2rem;
+    color:#888;
+}
