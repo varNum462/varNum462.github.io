@@ -20,7 +20,7 @@ header{
     position:relative;
     z-index: 1;
     top:0;
-    background-image: url("../assets/section-background-3.jpg");  
+    background-image: url("./assets/section-background-3.jpg");  
     background-repeat: no-repeat;
     background-position:0 -7rem; 
     background-size:cover ; 
@@ -148,25 +148,6 @@ p{
     margin-left:1.5rem;
 }
 
-#intro .down svg{
-    width:5rem;
-    height:5rem;
-    color: #f17746;
-    margin:2rem auto;     
-}3
-
-.overlay{
-    background-image: url("../assets/section-background-3.jpg");  
-    background-position: 0 -10vh;    
-    text-align: center;    
-    margin:0;
-    height:65vh; 
-    background-size:cover ; 
-    opacity: .9;
-    position:relative;
-    z-index: 1;
-    top:0px;    
-}
 #about .mypic img{
     -webkit-order: -1;
     order: -1;
@@ -185,17 +166,18 @@ p{
     border:1px solid #777;
     border-radius: 10px;
     margin:0 1rem;
-    b!ackground-image:linear-gradient(to right,rgba(240, 137, 19, 0.479) 50%,#007,rgba(240, 137, 19, 0.479))
+    padding: 0 2rem 2rem;
+    box-shadow: -6px 6px 10px #888;
 }
 .card3X{
     flex: 0 1 calc(33% - 2rem);
     border:1px solid #777;
     border-radius: 10px;
     margin:0 1rem;
-    b!ackground-image:linear-gradient(to right,rgba(240, 137, 19, 0.479) 50%,#007,rgba(240, 137, 19, 0.479))
+    box-shadow: -6px 6px 10px #888;
 }
 .card_title{
-    font-size:2.5rem;
+    font-size:2rem;
     font-family: Kanit;
     font-weight:400;
     text-align:center;
@@ -208,6 +190,13 @@ p{
     border-radius: 8px;
 }
 .card_text{
-    font-size:2rem;
+    font-size:1.6rem;
     color:#888;
+    text-align:left;
+    margin:1rem 0;
+}
+.gh_link{
+    font-size:1.4rem;
+    text-align:center;
+    margin:0 0 1rem 0;
 }
