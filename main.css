@@ -71,7 +71,35 @@ h3{
     font-weight: 200;
     font-size: 5rem;
     color: #c97d60;
-    width:100%;
+    width:100%;   
+}
+.CTA a{
+    font-family: Kanit;
+    font-weight: 200;
+    font-size: 2rem;
+    color: #fff;
+    margin: 3rem 1rem 2rem;
+    text-decoration: none;
+    border: 2px solid #c97d60;
+    border-radius: 8px;
+    background: linear-gradient(#008,#001);
+    height:3rem;
+    padding:1rem 3rem; 
+    box-shadow: -4px 4px 5px rgb(46, 36, 30);
+}
+.CTA a:hover{
+    font-family: Kanit;
+    font-weight: 200;
+    font-size: 2rem;
+    color: #fff;
+    margin: 3rem 1rem 2rem;
+    text-decoration: none;
+    border: 2px solid #c97d60;
+    border-radius: 8px;
+    background: linear-gradient(rgb(38, 38, 245),rgb(27, 27, 102));
+    height:3rem;
+    padding:1rem 3rem; 
+    box-shadow: -1px 1px 1px rgb(85, 75, 69);
 }
 .subheading{
     margin:0 auto;
@@ -148,7 +176,7 @@ p{
     margin-left:1.5rem;
 }
 
-#about .mypic img{
+.mypic img{
     -webkit-order: -1;
     order: -1;
     width:20rem;
