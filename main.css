@@ -43,13 +43,13 @@ nav{
     padding-top:1rem;
     border-bottom:2px solid #c97d60;
 }
-nav a{
+nav a,footer a{
     text-decoration: none;
     color:bisque;
-    margin:10px 20px;
+    margin:1rem 2rem;
     padding-top:1rem;
 }
-nav a:hover{
+nav a:hover,footer a:hover{
     color:#c97d60;
     font-weight: 400;;
 }
@@ -179,7 +179,7 @@ p{
 .mypic img{
     -webkit-order: -1;
     order: -1;
-    width:20rem;
+    width:30rem;
     box-shadow: -6px 6px 10px #888;
     border-radius: 15px;
 }
@@ -228,3 +228,54 @@ p{
     text-align:center;
     margin:0 0 1rem 0;
 }
+
+form{
+    width:60%;
+    padding:3rem;
+    text-align: left;
+    margin:0;
+}
+input, textarea{
+    font-size: 2rem;
+    padding:1rem;
+    width:60rem;
+    margin:.5rem 0;
+    border-radius:5px;
+    border:1px solid #c97d60;
+    box-shadow: -3px 3px 5px #888;
+}
+label{
+    font-size: 2rem;
+    text-align:left;
+    margin:.5rem 0;
+    width:60rem;
+}
+
+#contact>div{padding:0;}
+button{
+    font-family: Kanit;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #fff;
+    margin: 2rem 1rem 2rem;
+    text-decoration: none;
+    border: 2px solid #5a2c19;
+    border-radius: 8px;
+    background: linear-gradient(rgb(226, 173, 104),rgb(238, 156, 5));
+    padding:1rem 3rem; 
+    box-shadow: -4px 4px 5px rgb(46, 36, 30);
+}
+.unstatic{font-size:1rem;}
+
+footer{
+    padding:3rem 5rem;
+    background-color: #2d3088;
+    font-size:1.5rem;
+    color:#f17746;
+}
+
+.center{text-align:center;}
+.space2{
+    margin:2rem;
+}
+.social{display:flex;align-items: left;margin:3rem;}

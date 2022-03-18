@@ -15,9 +15,9 @@
     <header>        
         <nav>
             <a href="#">HOME</a>
-            <a href="#about">ABOUT ME</a>
-            <a href="#work">MY WORK</a>
-            <a href="#contact">GET IN TOUCH</a>
+            <a href="#about_hr">ABOUT ME</a>
+            <a href="#work_hr">MY WORK</a>
+            <a href="#contact_hr">GET IN TOUCH</a>
         </nav>
         <div id="intro">
             <h1 class="logo_text">&lt;gary.varnum &nbsp;&frasl;&gt;</h1>
@@ -29,11 +29,10 @@
                 </ul>                
             </div>            
         </div>
-        <div class="CTA"><a href="#contact" alt="Contact Me">Contact me for software/web development services</a></div>
+        <div class="CTA"><a href="#contact_hr" alt="Contact Me">Contact me for software/web development services</a></div>
     </header>
-    <hr class="b_border" />
-    <div id="about"></div>
-    <section>
+    <hr class="b_border" id="about_hr" />
+    <section id="about">
         <h2>&lt;&excl;--about me--&gt;</h2>
         <div class="flex-container">
             <div class="flex-item mypic">
@@ -42,10 +41,14 @@
             <div class="flex-item">
                 <p>Hello, I'm Gary Varnum from Bradenton, Florida.</p>
                 <p>I have been involved in web development since 2002, creating web applications and websites for various freelance clients and employers. I've always been intrigued by the human/computer interaction via the web, and strive to incorporate meaningful UI/UX principles in all my work while making it aesthetically pleasing.</p>
+                <div class="social">
+                    <div class="flex-item"><a href="https://www.linkedin.com/in/gary-varnum/" target="_blank" alt="LinkedIn"><img src="./assets/linkedin.png" /></a></div>
+                    <div class="flex-item"><a href="https://github.com/varNum462/" target="_blank" alt="GitHub"><img src="./assets/github.png" /></a></div>
+                </div>
             </div>            
         </div>
     </section> 
-    <hr />
+    <hr  id="work_hr"/>
     <section id="work">
         <h2>&lt;&excl;--my work--&gt;</h2>
         <div class="subheading"><h3>&lt;projects &nbsp;&frasl;&gt;</h3></div>
@@ -99,17 +102,34 @@
             </div>            
         </div> -->
     </section>
-    <hr />
+    <hr id="contact_hr" />
     <section id="contact">
         <h2>&lt;&excl;--get in touch--&gt;</h2>
+        <div><p>If you would like to contact me about web or software development, please fill out the form below and submit.<br />I will review your message as soon as possible and reply to the email address provided.</p></div>
         <div class="flex-container">
-            
+            <form method="post" action="https://forms.un-static.com/forms/12f8b600334fea8fa22e9d1f4be90071b350f6d7">
+                <div>
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                </div>
+                <div><input type="email" name="email" placeholder="Enter your e-mail address" required></div>
+                <div>
+                    <label for="message">Message</label><textarea name="message" rows="6"></textarea></div>
+                <div><button type="submit">Send Message</button></div>
+                <div align="center"><p class="unstatic">(Powered by <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</p>
+                </div>
+            </form>
         </div>
     </section>
     <footer>
-       Header Background Photo by <a href="https://unsplash.com/@bigkids?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Werbrouck</a> on <a href="https://unsplash.com/s/photos/dark-abstract?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-       <br />
-       Photo by cottonbro from Pexels
+        <div class="flex-container">
+          <div class="flex-item">
+            <a href="#">HOME</a>
+            <a href="#about_hr">ABOUT ME</a>
+            <a href="#work_hr">MY WORK</a>
+            <a href="#contact_hr">GET IN TOUCH</a>
+            <div class="center space2">&copy;2022 Gary Varnum - All Rights Reserved</div>
+          </div>
+        </div>
     </footer>
 </body>
 </html>
